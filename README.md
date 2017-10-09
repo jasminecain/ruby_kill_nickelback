@@ -8,7 +8,6 @@ small_numbers = []
 
 ### Only add numbers to the new list if the value is less than 6
 nums.each {|i| small_numbers.push(i) if i < 6}
-
 ```bash
 words = ['big', 'red', 'dog', 'ate', 'his', 'food']
 three_letters_words = []
@@ -28,8 +27,8 @@ end
 mkdir -p ~/workspace/ruby/exercises/conditions && cd $_
 touch nickelback.rb
 ```
-###Instructions
 
+###Instructions
 Define an array that contains arrays. Each array should contain two strings:
 
 The name of an artist
